@@ -77,9 +77,11 @@ p{
 
 .wrapper{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    gap: 5rem;
 }
 
 .card{
@@ -121,4 +123,19 @@ p{
     justify-content: center;
     align-items: center;
     
+}
+
+.p-text{
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    border: 1px solid white;
+    background-color: transparent;
+    padding: 7px;
+    border-radius: 2rem;
+}
+
+
+footer{
+    text-align: center;
 }
