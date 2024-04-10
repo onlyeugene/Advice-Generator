@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+/* 
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+body{
+    background-color: hsl(218, 23%, 16%);
+    color: #fff;
+    font-family: "Manrope", sans-serif;
+
+}
+
+/* .wrapper{
+    padding: 4rem 1rem;
+    background-color: hsl(217, 19%, 24%);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+span{
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color:  hsl(150, 100%, 66%);
+    font-family: "Manrope", sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+p{
+    color: white;
+    text-align: center;
+    word-wrap: break-word;
+    font-size: 28px;
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+} */
+
+/* fade{
+    opacity: 1;
+    transition: opacity 1.5s;
+}
+.image{
+    width: 28rem;
+    margin-left: 1rem;
+}
+
+#dice{
+    border: 1px solid hsl(150, 100%, 66%);
+    background-color: hsl(150, 100%, 66%);
+    padding: 1rem 1rem ;
+    border-radius: 2rem;
+    position: fixed;
+    top: 14rem;
+    left: 13rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card{
+    position: relative;
+    width: 30rem;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+} */
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card{
+    width: 300px;
+    background-color: hsl(217, 19%, 24%);
+    padding: 40px;
+    position: relative;
+    text-align: center;
+    border-radius: 10px;
+}
+
+#advice-id{
+    text-align: center;
+    color:  hsl(150, 100%, 66%);
+    letter-spacing: 3px;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+#advice{
+    font-weight: 700;
+    font-size: 28px;
+}
+
+#pattern{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.dice{
+    position: absolute;
+    bottom: -20px;
+    left: 170px;
+    background-color: hsl(150, 100%, 66%);
+    padding: 10px;
+    border-radius: 50%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    
+}
